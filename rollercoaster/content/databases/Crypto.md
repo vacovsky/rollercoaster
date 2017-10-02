@@ -1,15 +1,15 @@
 ---
 draft: false
-date: "2017-10-02T14:57:28"
-tags: ["LoggingDB",
-"CryptoDB",
+date: "2017-10-02T15:03:19"
+tags: ["CryptoDB",
+"LoggingDB",
 ]
 title: Crypto
 categories: ["databases"]
 depmap: [ "graph LR",
-"style Crypto fill:#d02a91,stroke:#3d4580,stroke-width:2px",
-"Crypto -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"style Crypto fill:#c63d24,stroke:#7a284a,stroke-width:2px",
 "Crypto -->CryptoDB(\"fa:fa-database CryptoDB\")",
+"Crypto -->LoggingDB(\"fa:fa-database LoggingDB\")",
 ]
 ---
 			
