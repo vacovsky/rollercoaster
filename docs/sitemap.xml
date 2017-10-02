@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/databases/all-applications/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/all-applications/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/all-applications/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/crypto/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/crypto/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/crypto/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/identityprovider/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/identityprovider/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/identityprovider/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/mywebapp/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/mywebapp/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/mywebapp/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/service-a/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/service-a/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/service-a/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/service-b/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/service-b/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/service-b/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/serviceapi/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/serviceapi/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/serviceapi/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/servicea/</loc>
+    <lastmod>2017-10-01T22:40:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/servicea/</loc>
+    <lastmod>2017-10-01T22:40:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/servicea/</loc>
+    <lastmod>2017-10-01T22:40:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/serviceb/</loc>
+    <lastmod>2017-10-01T22:40:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/serviceb/</loc>
+    <lastmod>2017-10-01T22:40:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/serviceb/</loc>
+    <lastmod>2017-10-01T22:40:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2017-10-01T07:43:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/_header/</loc>
+    <lastmod>2017-09-30T23:04:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/crypto/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/cryptodb/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/databases/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/databases/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/everything/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/everything/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/file_share/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/identity/</loc>
+    <lastmod>2017-10-01T22:40:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/identitydb/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/identityprovider/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/loggingdb/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/messagebus-a/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/messagebus-b/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/messagebus-c/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/service-a/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/service-b/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/servicea-db/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/serviceapi/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/serviceb-db/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/servicedb/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/services-and-apis/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services-and-apis/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2017-10-02T14:57:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Everything on rollercoaster</title>
+    <link>http://localhost:1313/categories/everything/</link>
+    <description>Recent content in Everything on rollercoaster</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 02 Oct 2017 14:57:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/everything/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>All Applications</title>
+      <link>http://localhost:1313/everything/all-applications/</link>
+      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/all-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crypto</title>
+      <link>http://localhost:1313/everything/crypto/</link>
+      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IdentityProvider</title>
+      <link>http://localhost:1313/everything/identityprovider/</link>
+      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/identityprovider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MyWebApp</title>
+      <link>http://localhost:1313/everything/mywebapp/</link>
+      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/mywebapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service-A</title>
+      <link>http://localhost:1313/everything/service-a/</link>
+      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/service-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service-B</title>
+      <link>http://localhost:1313/everything/service-b/</link>
+      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/service-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ServiceAPI</title>
+      <link>http://localhost:1313/everything/serviceapi/</link>
+      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/serviceapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ServiceA</title>
+      <link>http://localhost:1313/everything/servicea/</link>
+      <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/servicea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ServiceB</title>
+      <link>http://localhost:1313/everything/serviceb/</link>
+      <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/everything/serviceb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
