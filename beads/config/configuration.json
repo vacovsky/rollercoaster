@@ -1,0 +1,86 @@
+{
+    "AccessToken": "",
+    "HugoSiteRootPath": "../rollercoaster/",
+    "DependencyStrings": ["http://", "https://", "tcp:", "mysite", "\\\\", "-ns", "server="],
+    "ExcludedIdentifiers": ["-local"],
+    "FlowIngressPoints": ["MyWebApp", "ServiceAPI"],
+    "TargetCategories": [{
+            "Category": "SQL",
+            "Identifiers": ["server=", "Server="],
+            "Icon": "fa:fa-database",
+            "DisplayShape": ["(", ")"]
+        },
+        {
+            "Category": "WCF",
+            "Identifiers": ["tcp://"],
+            "Icon": "fa:fa-tasks",
+            "DisplayShape": ["{", "}"]
+
+        },
+        {
+            "Category": "AMQP",
+            "Identifiers": ["-ns"],
+            "Icon": "fa:fa-sitemap",
+            "DisplayShape": [">", "]"]
+        },
+        {
+            "Category": "HTTP",
+            "Identifiers": ["http://", "https://"],
+            "Icon": "fa:fa-globe",
+            "DisplayShape": ["((", "))"]
+        },
+        {
+            "Category": "SMB/CIFS/NFS",
+            "Identifiers": ["\\\\"],
+            "Icon": "fa:fa-files-o",
+            "DisplayShape": ["[", "]"]
+        }
+    ],
+    "Targets": [{
+            "FriendlyName": "IdentityProvider",
+            "Identifiers": ["auth.mysite"],
+            "SourceURL": "./demo/identityprovider.config"
+        },
+        {
+            "FriendlyName": "MyWebApp",
+            "Identifiers": ["mywebapp.mysite"],
+            "SourceURL": "./demo/webapp.config"
+        },
+        {
+            "FriendlyName": "Service-A",
+            "Identifiers": ["service-a.mysite"],
+            "SourceURL": "./demo/service-a.config"
+        },
+        {
+            "FriendlyName": "Service-B",
+            "Identifiers": ["service-b.mysite"],
+            "SourceURL": "./demo/service-b.config"
+        },
+        {
+            "FriendlyName": "ServiceAPI",
+            "Identifiers": ["serviceapi.mysite"],
+            "SourceURL": "./demo/serviceapi.config"
+        },
+        {
+            "FriendlyName": "Crypto",
+            "Identifiers": ["crypto.mysite"],
+            "SourceURL": "./demo/crypto.config"
+        },
+        {
+            "FriendlyName": "File_Share",
+            "Identifiers": ["fileshare.mysite"]
+        },
+        {
+            "FriendlyName": "MessageBus-A",
+            "Identifiers": ["messagebus-a.mysite"]
+        },
+        {
+            "FriendlyName": "MessageBus-B",
+            "Identifiers": ["messagebus-b.mysite"]
+        },
+        {
+            "FriendlyName": "MessageBus-C",
+            "Identifiers": ["messagebus-c.mysite"]
+        }
+    ]
+}

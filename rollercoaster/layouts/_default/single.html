@@ -1,0 +1,21 @@
+{{ partial "header.html" . }} {{ .Content }}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.css" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js"></script>
+
+<div class="mermaid">
+    {{ range $link := .Params.depmap }}
+		{{ $link }}; 
+	{{ end }}
+</div>
+
+<footer class=" footline">
+    {{with .Params.LastModifierDisplayName}}
+    <i class='fa fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fa fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
+    </div>
+    {{end}}
+</footer>
+
+
+{{ partial "footer.html" . }}

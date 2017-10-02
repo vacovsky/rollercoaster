@@ -1,0 +1,51 @@
+---
+draft: false
+date: "2017-10-02T11:28:22"
+tags: []
+title: All Applications
+categories: ["databases"]
+depmap: [ "graph LR",
+"style Crypto fill:#044ecc,stroke:#308163,stroke-width:2px",
+"style Crypto fill:#a05829,stroke:#428b30,stroke-width:2px",
+"Crypto -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"style Crypto fill:#88b121,stroke:#296358,stroke-width:2px",
+"Crypto -->CryptoDB(\"fa:fa-database CryptoDB\")",
+"style IdentityProvider fill:#3128a9,stroke:#2f8e3f,stroke-width:2px",
+"IdentityProvider -->IdentityDB(\"fa:fa-database IdentityDB\")",
+"style IdentityProvider fill:#55d32c,stroke:#6a821f,stroke-width:2px",
+"style IdentityProvider fill:#3094a5,stroke:#112853,stroke-width:2px",
+"style IdentityProvider fill:#3a7ace,stroke:#417635,stroke-width:2px",
+"style IdentityProvider fill:#2893b9,stroke:#2a5862,stroke-width:2px",
+"IdentityProvider -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"style MyWebApp fill:#ad2adc,stroke:#215413,stroke-width:2px",
+"MyWebApp[\"fa:fa-arrow-right MyWebApp\"] -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"style MyWebApp fill:#aa2f40,stroke:#302b64,stroke-width:2px",
+"style MyWebApp fill:#d61160,stroke:#48316d,stroke-width:2px",
+"style MyWebApp fill:#e41695,stroke:#723652,stroke-width:2px",
+"style MyWebApp fill:#b40250,stroke:#2f2278,stroke-width:2px",
+"style Service-A fill:#1c2fd3,stroke:#469869,stroke-width:2px",
+"style Service-A fill:#d02a91,stroke:#3d4580,stroke-width:2px",
+"Service-A -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"style Service-A fill:#2045ab,stroke:#2a545f,stroke-width:2px",
+"Service-A -->ServiceA-DB(\"fa:fa-database ServiceA-DB\")",
+"style Service-A fill:#2e4caf,stroke:#2e7c52,stroke-width:2px",
+"style Service-A fill:#1899d1,stroke:#844285,stroke-width:2px",
+"style Service-B fill:#1ec762,stroke:#264d37,stroke-width:2px",
+"Service-B -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"style Service-B fill:#c60805,stroke:#256a90,stroke-width:2px",
+"Service-B -->ServiceB-DB(\"fa:fa-database ServiceB-DB\")",
+"style Service-B fill:#139b79,stroke:#7e3578,stroke-width:2px",
+"style Service-B fill:#7ec631,stroke:#48174f,stroke-width:2px",
+"style Service-B fill:#02a1d2,stroke:#275818,stroke-width:2px",
+"style ServiceAPI fill:#09ab1e,stroke:#1d2a53,stroke-width:2px",
+"style ServiceAPI fill:#c63d24,stroke:#7a284a,stroke-width:2px",
+"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"style ServiceAPI fill:#1abf67,stroke:#551626,stroke-width:2px",
+"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->ServiceDB(\"fa:fa-database ServiceDB\")",
+"style ServiceAPI fill:#7b1ea3,stroke:#727f23,stroke-width:2px",
+"style ServiceAPI fill:#a16817,stroke:#656030,stroke-width:2px",
+"style ServiceAPI fill:#b2ac2e,stroke:#266274,stroke-width:2px",
+"style ServiceAPI fill:#2614c1,stroke:#242a7d,stroke-width:2px",
+]
+---
+			

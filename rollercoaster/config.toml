@@ -1,0 +1,31 @@
+baseurl = "http://localhost:1313/"
+theme = "docdock"
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Joe Vacovsky Jr."
+title = "rollercoaster"
+disqusshortname = ""
+pluralizelisttitles = false
+
+[params]
+  highlightStyle = "github"
+  description = "A list of auto-generated dependency maps of {these here} applications."
+
+[[menu.main]]
+   name   = "Everything"
+   url    = "/everything/"
+   weight = 11
+
+[[menu.main]]
+   name   = "Services and APIs"
+   url    = "/services-and-apis/"
+   weight = 12
+
+[[menu.main]]
+   name   = "Databases"
+   url    = "/databases/"
+   weight = 13
