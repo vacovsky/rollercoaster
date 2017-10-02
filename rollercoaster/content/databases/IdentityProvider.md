@@ -1,15 +1,15 @@
 ---
 draft: false
-date: "2017-10-02T11:28:22"
-tags: ["LoggingDB",
-"IdentityDB",
+date: "2017-10-02T11:37:29"
+tags: ["IdentityDB",
+"LoggingDB",
 ]
 title: IdentityProvider
 categories: ["databases"]
 depmap: [ "graph LR",
-"style IdentityProvider fill:#2893b9,stroke:#2a5862,stroke-width:2px",
-"IdentityProvider -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"style IdentityProvider fill:#55d32c,stroke:#6a821f,stroke-width:2px",
 "IdentityProvider -->IdentityDB(\"fa:fa-database IdentityDB\")",
+"IdentityProvider -->LoggingDB(\"fa:fa-database LoggingDB\")",
 ]
 ---
 			
