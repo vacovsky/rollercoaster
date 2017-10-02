@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on rollercoaster</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://vacoj.github.io/rollercoaster/categories/</link>
     <description>Recent content in Categories on rollercoaster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vacoj.github.io/rollercoaster/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Databases</title>
-      <link>http://localhost:1313/categories/databases/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/categories/databases/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/databases/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/categories/databases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything</title>
-      <link>http://localhost:1313/categories/everything/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/categories/everything/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/everything/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/categories/everything/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Services and Apis</title>
-      <link>http://localhost:1313/categories/services-and-apis/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/categories/services-and-apis/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/services-and-apis/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/categories/services-and-apis/</guid>
       <description></description>
     </item>
     

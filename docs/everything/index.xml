@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Everything on rollercoaster</title>
-    <link>http://localhost:1313/everything/</link>
+    <link>https://vacoj.github.io/rollercoaster/everything/</link>
     <description>Recent content in Everything on rollercoaster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 02 Oct 2017 14:57:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Oct 2017 15:03:19 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/everything/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vacoj.github.io/rollercoaster/everything/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>All Applications</title>
-      <link>http://localhost:1313/everything/all-applications/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/all-applications/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/all-applications/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/all-applications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crypto</title>
-      <link>http://localhost:1313/everything/crypto/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/crypto/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/crypto/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/crypto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IdentityProvider</title>
-      <link>http://localhost:1313/everything/identityprovider/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/identityprovider/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/identityprovider/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/identityprovider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MyWebApp</title>
-      <link>http://localhost:1313/everything/mywebapp/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/mywebapp/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/mywebapp/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/mywebapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-A</title>
-      <link>http://localhost:1313/everything/service-a/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/service-a/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/service-a/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/service-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-B</title>
-      <link>http://localhost:1313/everything/service-b/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/service-b/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/service-b/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/service-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceAPI</title>
-      <link>http://localhost:1313/everything/serviceapi/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/serviceapi/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/serviceapi/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/serviceapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceA</title>
-      <link>http://localhost:1313/everything/servicea/</link>
+      <link>https://vacoj.github.io/rollercoaster/everything/servicea/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/servicea/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/servicea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceB</title>
-      <link>http://localhost:1313/everything/serviceb/</link>
+      <link>https://vacoj.github.io/rollercoaster/everything/serviceb/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/serviceb/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/serviceb/</guid>
       <description></description>
     </item>
     

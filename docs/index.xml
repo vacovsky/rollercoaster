@@ -2,264 +2,264 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on rollercoaster</title>
-    <link>http://localhost:1313/</link>
+    <link>https://vacoj.github.io/rollercoaster/</link>
     <description>Recent content in Index on rollercoaster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 01 Oct 2017 07:43:18 -0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vacoj.github.io/rollercoaster/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>All Applications</title>
-      <link>http://localhost:1313/databases/all-applications/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/databases/all-applications/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/all-applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>All Applications</title>
-      <link>http://localhost:1313/everything/all-applications/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
-      
-      <guid>http://localhost:1313/everything/all-applications/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/all-applications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>All Applications</title>
-      <link>http://localhost:1313/services-and-apis/all-applications/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/all-applications/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/all-applications/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/all-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All Applications</title>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/all-applications/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
+      
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/all-applications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crypto</title>
-      <link>http://localhost:1313/databases/crypto/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/databases/crypto/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/crypto/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/crypto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crypto</title>
-      <link>http://localhost:1313/everything/crypto/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/crypto/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/crypto/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/crypto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crypto</title>
-      <link>http://localhost:1313/services-and-apis/crypto/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/crypto/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/crypto/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/crypto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IdentityProvider</title>
-      <link>http://localhost:1313/databases/identityprovider/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/databases/identityprovider/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/identityprovider/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/identityprovider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IdentityProvider</title>
-      <link>http://localhost:1313/everything/identityprovider/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/identityprovider/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/identityprovider/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/identityprovider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IdentityProvider</title>
-      <link>http://localhost:1313/services-and-apis/identityprovider/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/identityprovider/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/identityprovider/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/identityprovider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MyWebApp</title>
-      <link>http://localhost:1313/databases/mywebapp/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/databases/mywebapp/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/mywebapp/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/mywebapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MyWebApp</title>
-      <link>http://localhost:1313/everything/mywebapp/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/mywebapp/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/mywebapp/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/mywebapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MyWebApp</title>
-      <link>http://localhost:1313/services-and-apis/mywebapp/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/mywebapp/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/mywebapp/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/mywebapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-A</title>
-      <link>http://localhost:1313/databases/service-a/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/databases/service-a/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/service-a/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/service-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-A</title>
-      <link>http://localhost:1313/everything/service-a/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/service-a/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/service-a/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/service-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-A</title>
-      <link>http://localhost:1313/services-and-apis/service-a/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/service-a/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/service-a/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/service-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-B</title>
-      <link>http://localhost:1313/databases/service-b/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/databases/service-b/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/service-b/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/service-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-B</title>
-      <link>http://localhost:1313/everything/service-b/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/service-b/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/service-b/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/service-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-B</title>
-      <link>http://localhost:1313/services-and-apis/service-b/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/service-b/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/service-b/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/service-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceAPI</title>
-      <link>http://localhost:1313/databases/serviceapi/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/databases/serviceapi/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/serviceapi/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/serviceapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceAPI</title>
-      <link>http://localhost:1313/everything/serviceapi/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/everything/serviceapi/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/serviceapi/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/serviceapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceAPI</title>
-      <link>http://localhost:1313/services-and-apis/serviceapi/</link>
-      <pubDate>Mon, 02 Oct 2017 14:57:28 +0000</pubDate>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/serviceapi/</link>
+      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/serviceapi/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/serviceapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceA</title>
-      <link>http://localhost:1313/databases/servicea/</link>
+      <link>https://vacoj.github.io/rollercoaster/databases/servicea/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/servicea/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/servicea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceA</title>
-      <link>http://localhost:1313/everything/servicea/</link>
+      <link>https://vacoj.github.io/rollercoaster/everything/servicea/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/servicea/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/servicea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceA</title>
-      <link>http://localhost:1313/services-and-apis/servicea/</link>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/servicea/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/servicea/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/servicea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceB</title>
-      <link>http://localhost:1313/databases/serviceb/</link>
+      <link>https://vacoj.github.io/rollercoaster/databases/serviceb/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/databases/serviceb/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/databases/serviceb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceB</title>
-      <link>http://localhost:1313/everything/serviceb/</link>
+      <link>https://vacoj.github.io/rollercoaster/everything/serviceb/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/everything/serviceb/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/everything/serviceb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceB</title>
-      <link>http://localhost:1313/services-and-apis/serviceb/</link>
+      <link>https://vacoj.github.io/rollercoaster/services-and-apis/serviceb/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/services-and-apis/serviceb/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/serviceb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>_Header</title>
-      <link>http://localhost:1313/_header/</link>
+      <link>https://vacoj.github.io/rollercoaster/_header/</link>
       <pubDate>Sat, 30 Sep 2017 23:04:30 -0700</pubDate>
       
-      <guid>http://localhost:1313/_header/</guid>
+      <guid>https://vacoj.github.io/rollercoaster/_header/</guid>
       <description>From DevOps with Love</description>
     </item>
     
