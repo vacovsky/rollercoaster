@@ -266,11 +266,11 @@
         
           <div id="tags">
             
-              <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/file_share">File_Share</a>
-            
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/loggingdb">LoggingDB</a>
             
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/cryptodb">CryptoDB</a>
+            
+              <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/file_share">File_Share</a>
             
           </div>
         
@@ -290,13 +290,13 @@
     
 		graph LR; 
 	
-		style Crypto fill:#43bc16,stroke:#4a5f25,stroke-width:2px; 
-	
-		Crypto --&gt;|SMB/CIFS/NFS|File_Share[&#34;fa:fa-files-o File_Share&#34;]; 
+		style Crypto fill:#0b990d,stroke:#4e214b,stroke-width:2px; 
 	
 		Crypto --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
 	
 		Crypto --&gt;|SQL|CryptoDB(&#34;fa:fa-database CryptoDB&#34;); 
+	
+		Crypto --&gt;|SMB/CIFS/NFS|File_Share[&#34;fa:fa-files-o File_Share&#34;]; 
 	
 </div>
 

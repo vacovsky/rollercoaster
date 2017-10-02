@@ -266,15 +266,15 @@
         
           <div id="tags">
             
-              <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/identityprovider">IdentityProvider</a>
-            
-              <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/messagebus-b">MessageBus-B</a>
-            
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/messagebus-c">MessageBus-C</a>
             
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/loggingdb">LoggingDB</a>
             
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/serviceb-db">ServiceB-DB</a>
+            
+              <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/identityprovider">IdentityProvider</a>
+            
+              <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/messagebus-b">MessageBus-B</a>
             
           </div>
         
@@ -294,17 +294,17 @@
     
 		graph LR; 
 	
-		style Service-B fill:#2943b7,stroke:#4e2d62,stroke-width:2px; 
-	
-		Service-B --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
-	
-		Service-B --&gt;|WCF|MessageBus-B{&#34;fa:fa-tasks MessageBus-B&#34;}; 
+		style Service-B fill:#4fcc06,stroke:#1b805e,stroke-width:2px; 
 	
 		Service-B --&gt;|WCF|MessageBus-C{&#34;fa:fa-tasks MessageBus-C&#34;}; 
 	
 		Service-B --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
 	
 		Service-B --&gt;|SQL|ServiceB-DB(&#34;fa:fa-database ServiceB-DB&#34;); 
+	
+		Service-B --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
+	
+		Service-B --&gt;|WCF|MessageBus-B{&#34;fa:fa-tasks MessageBus-B&#34;}; 
 	
 </div>
 

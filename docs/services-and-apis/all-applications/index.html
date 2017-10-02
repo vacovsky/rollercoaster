@@ -298,9 +298,11 @@
 	
 		style ServiceAPI fill:#b16b13,stroke:#1d5342,stroke-width:2px; 
 	
-		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|Service-B{&#34;fa:fa-tasks Service-B&#34;}; 
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|Service-A{&#34;fa:fa-tasks Service-A&#34;}; 
 	
 		style ServiceAPI fill:#2e28de,stroke:#732e43,stroke-width:2px; 
+	
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|Service-B{&#34;fa:fa-tasks Service-B&#34;}; 
 	
 		style ServiceAPI fill:#3cca75,stroke:#39906b,stroke-width:2px; 
 	
@@ -308,15 +310,13 @@
 	
 		style ServiceAPI fill:#dc6a12,stroke:#8c2231,stroke-width:2px; 
 	
-		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
-	
 		style ServiceAPI fill:#539f04,stroke:#862a85,stroke-width:2px; 
 	
-		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|MessageBus-A{&#34;fa:fa-tasks MessageBus-A&#34;}; 
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
 	
 		style ServiceAPI fill:#2a419a,stroke:#497199,stroke-width:2px; 
 	
-		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|Service-A{&#34;fa:fa-tasks Service-A&#34;}; 
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|MessageBus-A{&#34;fa:fa-tasks MessageBus-A&#34;}; 
 	
 		style Crypto fill:#0118d9,stroke:#2e962d,stroke-width:2px; 
 	
@@ -328,15 +328,15 @@
 	
 		style IdentityProvider fill:#b43c12,stroke:#134d4e,stroke-width:2px; 
 	
-		IdentityProvider --&gt;|HTTP|Crypto((&#34;fa:fa-globe Crypto&#34;)); 
-	
 		style IdentityProvider fill:#d9ae30,stroke:#509148,stroke-width:2px; 
-	
-		IdentityProvider --&gt;|WCF|MessageBus-A{&#34;fa:fa-tasks MessageBus-A&#34;}; 
 	
 		style IdentityProvider fill:#37ca57,stroke:#451961,stroke-width:2px; 
 	
+		IdentityProvider --&gt;|HTTP|Crypto((&#34;fa:fa-globe Crypto&#34;)); 
+	
 		style IdentityProvider fill:#33d840,stroke:#27792f,stroke-width:2px; 
+	
+		IdentityProvider --&gt;|WCF|MessageBus-A{&#34;fa:fa-tasks MessageBus-A&#34;}; 
 	
 		style MyWebApp fill:#3bdf8a,stroke:#653e2c,stroke-width:2px; 
 	

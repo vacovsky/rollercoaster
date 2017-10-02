@@ -280,87 +280,125 @@
     
 		graph LR; 
 	
-		style MyWebApp fill:#044ecc,stroke:#308163,stroke-width:2px; 
+		style Crypto fill:#e533cd,stroke:#642d45,stroke-width:2px; 
 	
-		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
+		Crypto --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
 	
-		style MyWebApp fill:#a05829,stroke:#428b30,stroke-width:2px; 
+		style Crypto fill:#35b7d7,stroke:#352860,stroke-width:2px; 
 	
-		style MyWebApp fill:#88b121,stroke:#296358,stroke-width:2px; 
+		Crypto --&gt;|SQL|CryptoDB(&#34;fa:fa-database CryptoDB&#34;); 
 	
-		style MyWebApp fill:#3128a9,stroke:#2f8e3f,stroke-width:2px; 
+		style Crypto fill:#0b990d,stroke:#4e214b,stroke-width:2px; 
 	
-		style MyWebApp fill:#55d32c,stroke:#6a821f,stroke-width:2px; 
+		Crypto --&gt;|SMB/CIFS/NFS|File_Share[&#34;fa:fa-files-o File_Share&#34;]; 
 	
-		style Service-A fill:#3094a5,stroke:#112853,stroke-width:2px; 
+		style IdentityProvider fill:#e30749,stroke:#502617,stroke-width:2px; 
 	
-		Service-A --&gt;LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
+		IdentityProvider --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
 	
-		style Service-A fill:#3a7ace,stroke:#417635,stroke-width:2px; 
+		style IdentityProvider fill:#1cb460,stroke:#602f1f,stroke-width:2px; 
 	
-		Service-A --&gt;ServiceA-DB(&#34;fa:fa-database ServiceA-DB&#34;); 
+		IdentityProvider --&gt;|SQL|IdentityDB(&#34;fa:fa-database IdentityDB&#34;); 
 	
-		style Service-A fill:#2893b9,stroke:#2a5862,stroke-width:2px; 
+		style IdentityProvider fill:#e003e1,stroke:#628626,stroke-width:2px; 
 	
-		style Service-A fill:#ad2adc,stroke:#215413,stroke-width:2px; 
+		IdentityProvider --&gt;|HTTP|Crypto((&#34;fa:fa-globe Crypto&#34;)); 
 	
-		style Service-A fill:#aa2f40,stroke:#302b64,stroke-width:2px; 
+		style IdentityProvider fill:#26bd90,stroke:#60252a,stroke-width:2px; 
 	
-		style Service-B fill:#d61160,stroke:#48316d,stroke-width:2px; 
+		IdentityProvider --&gt;|WCF|MessageBus-A{&#34;fa:fa-tasks MessageBus-A&#34;}; 
 	
-		Service-B --&gt;LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
+		style IdentityProvider fill:#d3460d,stroke:#373b7f,stroke-width:2px; 
 	
-		style Service-B fill:#e41695,stroke:#723652,stroke-width:2px; 
+		IdentityProvider --&gt;|SMB/CIFS/NFS|File_Share[&#34;fa:fa-files-o File_Share&#34;]; 
 	
-		Service-B --&gt;ServiceB-DB(&#34;fa:fa-database ServiceB-DB&#34;); 
+		style MyWebApp fill:#04a43b,stroke:#1a575f,stroke-width:2px; 
 	
-		style Service-B fill:#b40250,stroke:#2f2278,stroke-width:2px; 
+		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|WCF|Service-A{&#34;fa:fa-tasks Service-A&#34;}; 
 	
-		style Service-B fill:#1c2fd3,stroke:#469869,stroke-width:2px; 
+		style MyWebApp fill:#0e9f79,stroke:#34777c,stroke-width:2px; 
 	
-		style Service-B fill:#d02a91,stroke:#3d4580,stroke-width:2px; 
+		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|HTTP|ServiceAPI((&#34;fa:fa-globe ServiceAPI&#34;)); 
 	
-		style ServiceAPI fill:#2045ab,stroke:#2a545f,stroke-width:2px; 
+		style MyWebApp fill:#a5732b,stroke:#5f1e34,stroke-width:2px; 
 	
-		style ServiceAPI fill:#2e4caf,stroke:#2e7c52,stroke-width:2px; 
+		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|SMB/CIFS/NFS|File_Share[&#34;fa:fa-files-o File_Share&#34;]; 
 	
-		style ServiceAPI fill:#1899d1,stroke:#844285,stroke-width:2px; 
+		style MyWebApp fill:#b31937,stroke:#242185,stroke-width:2px; 
 	
-		style ServiceAPI fill:#1ec762,stroke:#264d37,stroke-width:2px; 
+		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
 	
-		style ServiceAPI fill:#c60805,stroke:#256a90,stroke-width:2px; 
+		style MyWebApp fill:#21babc,stroke:#6f1f35,stroke-width:2px; 
 	
-		style ServiceAPI fill:#139b79,stroke:#7e3578,stroke-width:2px; 
+		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
 	
-		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
+		style Service-A fill:#66b910,stroke:#502781,stroke-width:2px; 
 	
-		style ServiceAPI fill:#7ec631,stroke:#48174f,stroke-width:2px; 
+		Service-A --&gt;|SQL|ServiceA-DB(&#34;fa:fa-database ServiceA-DB&#34;); 
 	
-		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;ServiceDB(&#34;fa:fa-database ServiceDB&#34;); 
+		style Service-A fill:#2943b7,stroke:#4e2d62,stroke-width:2px; 
 	
-		style Crypto fill:#02a1d2,stroke:#275818,stroke-width:2px; 
+		Service-A --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
 	
-		Crypto --&gt;CryptoDB(&#34;fa:fa-database CryptoDB&#34;); 
+		style Service-A fill:#37d9e5,stroke:#1e2d6c,stroke-width:2px; 
 	
-		style Crypto fill:#09ab1e,stroke:#1d2a53,stroke-width:2px; 
+		Service-A --&gt;|WCF|MessageBus-B{&#34;fa:fa-tasks MessageBus-B&#34;}; 
 	
-		style Crypto fill:#c63d24,stroke:#7a284a,stroke-width:2px; 
+		style Service-A fill:#33b7c3,stroke:#883882,stroke-width:2px; 
 	
-		Crypto --&gt;LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
+		Service-A --&gt;|WCF|MessageBus-C{&#34;fa:fa-tasks MessageBus-C&#34;}; 
 	
-		style IdentityProvider fill:#1abf67,stroke:#551626,stroke-width:2px; 
+		style Service-A fill:#c9ae15,stroke:#3c7852,stroke-width:2px; 
 	
-		IdentityProvider --&gt;LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
+		Service-A --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
 	
-		style IdentityProvider fill:#7b1ea3,stroke:#727f23,stroke-width:2px; 
+		style Service-B fill:#c72190,stroke:#23328a,stroke-width:2px; 
 	
-		IdentityProvider --&gt;IdentityDB(&#34;fa:fa-database IdentityDB&#34;); 
+		Service-B --&gt;|WCF|MessageBus-C{&#34;fa:fa-tasks MessageBus-C&#34;}; 
 	
-		style IdentityProvider fill:#a16817,stroke:#656030,stroke-width:2px; 
+		style Service-B fill:#b36431,stroke:#277d78,stroke-width:2px; 
 	
-		style IdentityProvider fill:#b2ac2e,stroke:#266274,stroke-width:2px; 
+		Service-B --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
 	
-		style IdentityProvider fill:#2614c1,stroke:#242a7d,stroke-width:2px; 
+		style Service-B fill:#129f0a,stroke:#446d20,stroke-width:2px; 
+	
+		Service-B --&gt;|SQL|ServiceB-DB(&#34;fa:fa-database ServiceB-DB&#34;); 
+	
+		style Service-B fill:#9f3525,stroke:#2d5269,stroke-width:2px; 
+	
+		Service-B --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
+	
+		style Service-B fill:#4fcc06,stroke:#1b805e,stroke-width:2px; 
+	
+		Service-B --&gt;|WCF|MessageBus-B{&#34;fa:fa-tasks MessageBus-B&#34;}; 
+	
+		style ServiceAPI fill:#32a948,stroke:#6c258a,stroke-width:2px; 
+	
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
+	
+		style ServiceAPI fill:#43bc16,stroke:#4a5f25,stroke-width:2px; 
+	
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|SQL|ServiceDB(&#34;fa:fa-database ServiceDB&#34;); 
+	
+		style ServiceAPI fill:#992c27,stroke:#662c4b,stroke-width:2px; 
+	
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
+	
+		style ServiceAPI fill:#9520bb,stroke:#74521f,stroke-width:2px; 
+	
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|MessageBus-A{&#34;fa:fa-tasks MessageBus-A&#34;}; 
+	
+		style ServiceAPI fill:#a66808,stroke:#2d4d62,stroke-width:2px; 
+	
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|Service-A{&#34;fa:fa-tasks Service-A&#34;}; 
+	
+		style ServiceAPI fill:#a10305,stroke:#5f712e,stroke-width:2px; 
+	
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|WCF|Service-B{&#34;fa:fa-tasks Service-B&#34;}; 
+	
+		style ServiceAPI fill:#ceb627,stroke:#482954,stroke-width:2px; 
+	
+		ServiceAPI[&#34;fa:fa-arrow-right ServiceAPI&#34;] --&gt;|SMB/CIFS/NFS|File_Share[&#34;fa:fa-files-o File_Share&#34;]; 
 	
 </div>
 

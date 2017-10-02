@@ -1,6 +1,6 @@
 ---
 draft: false
-date: "2017-10-02T15:03:19"
+date: "2017-10-02T15:15:50"
 tags: []
 title: All Applications
 categories: ["services-and-apis"]
@@ -14,26 +14,26 @@ depmap: [ "graph LR",
 "style Service-B fill:#76e40a,stroke:#809549,stroke-width:2px",
 "Service-B -->|WCF|MessageBus-C{\"fa:fa-tasks MessageBus-C\"}",
 "style ServiceAPI fill:#b16b13,stroke:#1d5342,stroke-width:2px",
-"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->|WCF|Service-B{\"fa:fa-tasks Service-B\"}",
+"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->|WCF|Service-A{\"fa:fa-tasks Service-A\"}",
 "style ServiceAPI fill:#2e28de,stroke:#732e43,stroke-width:2px",
+"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->|WCF|Service-B{\"fa:fa-tasks Service-B\"}",
 "style ServiceAPI fill:#3cca75,stroke:#39906b,stroke-width:2px",
 "style ServiceAPI fill:#5f9c0b,stroke:#412474,stroke-width:2px",
 "style ServiceAPI fill:#dc6a12,stroke:#8c2231,stroke-width:2px",
-"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->|HTTP|IdentityProvider((\"fa:fa-globe IdentityProvider\"))",
 "style ServiceAPI fill:#539f04,stroke:#862a85,stroke-width:2px",
-"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->|WCF|MessageBus-A{\"fa:fa-tasks MessageBus-A\"}",
+"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->|HTTP|IdentityProvider((\"fa:fa-globe IdentityProvider\"))",
 "style ServiceAPI fill:#2a419a,stroke:#497199,stroke-width:2px",
-"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->|WCF|Service-A{\"fa:fa-tasks Service-A\"}",
+"ServiceAPI[\"fa:fa-arrow-right ServiceAPI\"] -->|WCF|MessageBus-A{\"fa:fa-tasks MessageBus-A\"}",
 "style Crypto fill:#0118d9,stroke:#2e962d,stroke-width:2px",
 "style Crypto fill:#4fe338,stroke:#8a388a,stroke-width:2px",
 "style Crypto fill:#10b864,stroke:#4e1137,stroke-width:2px",
 "style IdentityProvider fill:#7a1b9a,stroke:#208e62,stroke-width:2px",
 "style IdentityProvider fill:#b43c12,stroke:#134d4e,stroke-width:2px",
-"IdentityProvider -->|HTTP|Crypto((\"fa:fa-globe Crypto\"))",
 "style IdentityProvider fill:#d9ae30,stroke:#509148,stroke-width:2px",
-"IdentityProvider -->|WCF|MessageBus-A{\"fa:fa-tasks MessageBus-A\"}",
 "style IdentityProvider fill:#37ca57,stroke:#451961,stroke-width:2px",
+"IdentityProvider -->|HTTP|Crypto((\"fa:fa-globe Crypto\"))",
 "style IdentityProvider fill:#33d840,stroke:#27792f,stroke-width:2px",
+"IdentityProvider -->|WCF|MessageBus-A{\"fa:fa-tasks MessageBus-A\"}",
 "style MyWebApp fill:#3bdf8a,stroke:#653e2c,stroke-width:2px",
 "style MyWebApp fill:#22b031,stroke:#5c1c28,stroke-width:2px",
 "MyWebApp[\"fa:fa-arrow-right MyWebApp\"] -->|HTTP|IdentityProvider((\"fa:fa-globe IdentityProvider\"))",

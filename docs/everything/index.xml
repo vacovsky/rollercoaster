@@ -6,7 +6,7 @@
     <description>Recent content in Everything on rollercoaster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 02 Oct 2017 15:03:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Oct 2017 15:15:50 +0000</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/rollercoaster/everything/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>All Applications</title>
       <link>https://vacoj.github.io/rollercoaster/everything/all-applications/</link>
-      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
+      <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
       <guid>https://vacoj.github.io/rollercoaster/everything/all-applications/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Crypto</title>
       <link>https://vacoj.github.io/rollercoaster/everything/crypto/</link>
-      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
+      <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
       <guid>https://vacoj.github.io/rollercoaster/everything/crypto/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>IdentityProvider</title>
       <link>https://vacoj.github.io/rollercoaster/everything/identityprovider/</link>
-      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
+      <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
       <guid>https://vacoj.github.io/rollercoaster/everything/identityprovider/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>MyWebApp</title>
       <link>https://vacoj.github.io/rollercoaster/everything/mywebapp/</link>
-      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
+      <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
       <guid>https://vacoj.github.io/rollercoaster/everything/mywebapp/</guid>
       <description></description>
@@ -50,7 +50,7 @@
     <item>
       <title>Service-A</title>
       <link>https://vacoj.github.io/rollercoaster/everything/service-a/</link>
-      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
+      <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
       <guid>https://vacoj.github.io/rollercoaster/everything/service-a/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>Service-B</title>
       <link>https://vacoj.github.io/rollercoaster/everything/service-b/</link>
-      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
+      <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
       <guid>https://vacoj.github.io/rollercoaster/everything/service-b/</guid>
       <description></description>
@@ -68,7 +68,7 @@
     <item>
       <title>ServiceAPI</title>
       <link>https://vacoj.github.io/rollercoaster/everything/serviceapi/</link>
-      <pubDate>Mon, 02 Oct 2017 15:03:19 +0000</pubDate>
+      <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
       <guid>https://vacoj.github.io/rollercoaster/everything/serviceapi/</guid>
       <description></description>

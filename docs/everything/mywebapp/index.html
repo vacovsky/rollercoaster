@@ -266,8 +266,6 @@
         
           <div id="tags">
             
-              <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/identityprovider">IdentityProvider</a>
-            
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/service-a">Service-A</a>
             
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/serviceapi">ServiceAPI</a>
@@ -275,6 +273,8 @@
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/file_share">File_Share</a>
             
               <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/loggingdb">LoggingDB</a>
+            
+              <a class="label label-default" href="https://vacoj.github.io/rollercoaster//tags/identityprovider">IdentityProvider</a>
             
           </div>
         
@@ -294,9 +294,7 @@
     
 		graph LR; 
 	
-		style MyWebApp fill:#1cb460,stroke:#602f1f,stroke-width:2px; 
-	
-		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
+		style MyWebApp fill:#21babc,stroke:#6f1f35,stroke-width:2px; 
 	
 		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|WCF|Service-A{&#34;fa:fa-tasks Service-A&#34;}; 
 	
@@ -305,6 +303,8 @@
 		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|SMB/CIFS/NFS|File_Share[&#34;fa:fa-files-o File_Share&#34;]; 
 	
 		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|SQL|LoggingDB(&#34;fa:fa-database LoggingDB&#34;); 
+	
+		MyWebApp[&#34;fa:fa-arrow-right MyWebApp&#34;] --&gt;|HTTP|IdentityProvider((&#34;fa:fa-globe IdentityProvider&#34;)); 
 	
 </div>
 
