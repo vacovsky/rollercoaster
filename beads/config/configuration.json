@@ -15,7 +15,6 @@
             "Identifiers": ["tcp://"],
             "Icon": "fa:fa-tasks",
             "DisplayShape": ["{", "}"]
-
         },
         {
             "Category": "AMQP",

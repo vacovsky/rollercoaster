@@ -1,6 +1,6 @@
 ---
 draft: false
-date: "2017-10-02T11:37:29"
+date: "2017-10-02T14:57:28"
 tags: ["LoggingDB",
 "IdentityProvider",
 "Service-A",
@@ -10,7 +10,7 @@ tags: ["LoggingDB",
 title: MyWebApp
 categories: ["everything"]
 depmap: [ "graph LR",
-"style MyWebApp fill:#0e9f79,stroke:#34777c,stroke-width:2px",
+"style MyWebApp fill:#43bc16,stroke:#4a5f25,stroke-width:2px",
 "MyWebApp[\"fa:fa-arrow-right MyWebApp\"] -->|SQL|LoggingDB(\"fa:fa-database LoggingDB\")",
 "MyWebApp[\"fa:fa-arrow-right MyWebApp\"] -->|HTTP|IdentityProvider((\"fa:fa-globe IdentityProvider\"))",
 "MyWebApp[\"fa:fa-arrow-right MyWebApp\"] -->|WCF|Service-A{\"fa:fa-tasks Service-A\"}",
