@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313/"
+baseurl = "https://vacoj.github.io/rollercoaster/"
 theme = "docdock"
 builddrafts = true
 canonifyurls = true
