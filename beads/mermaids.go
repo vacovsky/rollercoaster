@@ -78,8 +78,19 @@ func buildChartList(friendly string, input map[string]mermaidNode, category stri
 			if !tagFound {
 				tags = append(tags, v.Name)
 			}
-		} else if category == "everything" &&
+		} else if category == "all-except-unknown" &&
 			v.Form != "???" {
+			result = append(result, lineBuilder(friendly, v.Name, v.Form, v.Value, v.Form, protoTag))
+			tagFound := false
+			for _, t := range tags {
+				if t == v.Name {
+					tagFound = true
+				}
+			}
+			if !tagFound {
+				tags = append(tags, v.Name)
+			}
+		} else if category == "everything" {
 			result = append(result, lineBuilder(friendly, v.Name, v.Form, v.Value, v.Form, protoTag))
 			tagFound := false
 			for _, t := range tags {
@@ -137,12 +148,12 @@ func lineBuilder(friendly, name, middle, target, ttype string, protoTag bool) st
 		if ttype == tc.Category && !preset && len(tc.DisplayShape) == 2 {
 			preset = true
 			builder += fmt.Sprintf("%s%s\\\"%s %s\\\"%s", name, tc.DisplayShape[0], tc.Icon, name, tc.DisplayShape[1])
-			fmt.Println(name, tc.Icon)
+			// fmt.Println(name, tc.Icon)
 			break
 		} else if ttype == tc.Category && !preset && len(tc.DisplayShape) != 2 {
 			preset = true
 			builder += fmt.Sprintf("%s%s\\\"%s %s\\\"%s", name, "(", tc.Icon, name, ")")
-			fmt.Println(name, tc.Icon)
+			// fmt.Println(name, tc.Icon)
 			break
 		}
 	}

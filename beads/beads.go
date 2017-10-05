@@ -17,7 +17,10 @@ var categories = []string{
 	"databases",
 	"services-and-apis",
 	"everything",
+	"all-except-unknown",
 }
+
+// var order = []string{}
 
 func main() {
 	args := flagInit()
@@ -93,31 +96,14 @@ func main() {
 							return r
 						}
 						nk := parseProtocols(k, v)
-
-						// if strings.Contains(v, "http:") || strings.Contains(v, "https:") {
-						// 	nk.Form = "HTTP"
-						// 	nk.Link = ""
-						// } else if strings.Contains(v, "server=") {
-						// 	nk.Form = "SQL"
-						// 	nk.Link = ""
-						// } else if strings.Contains(v, "tcp://") {
-						// 	nk.Form = "WCF"
-						// 	nk.Link = ""
-						// } else if strings.Contains(v, "-ns") {
-						// 	nk.Form = "AMQP"
-						// 	nk.Link = ""
-						// } else if strings.Contains(v, "\\\\") {
-						// 	nk.Form = "SMB/CIFS/NFS"
-						// 	nk.Link = ""
-						// } else {
-						// 	nk.Form = "???"
-						// 	nk.Link = ""
-						// }
 						if !stringInSliceElement(v, Configuration.ExcludedIdentifiers) {
 							deps[k] = nk
 						}
 					}
 				}
+				// if !stringInSlice(app, order) {
+				// 	order = append(order, app)
+				// }
 				buildChartList(app, deps, category)
 			}
 		}
@@ -125,6 +111,9 @@ func main() {
 			writeContent("All Applications", v, []string{}, category)
 		}
 	}
+	// for _, dwa := range order {
+	// 	fmt.Println(dwa)
+	// }
 }
 
 func tokenize(input []byte, buffers []string, tokenMap map[string]string) string {

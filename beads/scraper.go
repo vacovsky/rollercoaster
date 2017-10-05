@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"strings"
@@ -12,11 +13,11 @@ func loadToken(tokenFile string) string {
 }
 
 func loadTargets(targetFile string) map[string]string {
-	var objmap map[string]string //*json.RawMessage
+	var objmap map[string]string
 	fileContent := loadFile(targetFile)
 	err := json.Unmarshal(fileContent, &objmap)
 	if err != nil {
-		// fmt.Println("ug")
+		panic(err.Error())
 	}
 	return objmap
 }
@@ -36,11 +37,9 @@ func scrapeAppTransforms() map[string]string {
 
 				r, err := client.Do(req)
 
-				// if unable to connect, mark failed and move on
 				if err != nil {
-					//return
+					fmt.Println("Unable to locate target: ", target.FriendlyName, "", target.SourceURL)
 				}
-				// fmt.Println(target.FriendlyName)
 				body, err := ioutil.ReadAll(r.Body)
 				result[target.FriendlyName] = string(body)
 				r.Body.Close()
