@@ -20,7 +20,7 @@
             "Category": "AMQP",
             "Identifiers": ["-ns"],
             "Icon": "fa:fa-sitemap",
-            "DisplayShape": [">", "]"]
+            "DisplayShape": ["[", "]"]
         },
         {
             "Category": "HTTP",

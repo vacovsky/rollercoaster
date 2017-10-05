@@ -123,7 +123,7 @@ func lineBuilder(friendly, name, middle, target, ttype string, protoTag bool) st
 
 	for _, inp := range Configuration.FlowIngressPoints {
 		if friendly == inp {
-			friendly = fmt.Sprintf("%s[\\\"fa:fa-arrow-right %s\\\"]", friendly, friendly)
+			friendly = fmt.Sprintf("%s>\\\"fa:fa-arrow-right %s\\\"]", friendly, friendly)
 		}
 	}
 

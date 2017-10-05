@@ -94,25 +94,25 @@ func main() {
 						}
 						nk := parseProtocols(k, v)
 
-						if strings.Contains(v, "http:") || strings.Contains(v, "https:") {
-							nk.Form = "HTTP"
-							nk.Link = ""
-						} else if strings.Contains(v, "server=") {
-							nk.Form = "SQL"
-							nk.Link = ""
-						} else if strings.Contains(v, "tcp://") {
-							nk.Form = "WCF"
-							nk.Link = ""
-						} else if strings.Contains(v, "-ns") {
-							nk.Form = "AMQP"
-							nk.Link = ""
-						} else if strings.Contains(v, "\\\\") {
-							nk.Form = "SMB/CIFS/NFS"
-							nk.Link = ""
-						} else {
-							nk.Form = "???"
-							nk.Link = ""
-						}
+						// if strings.Contains(v, "http:") || strings.Contains(v, "https:") {
+						// 	nk.Form = "HTTP"
+						// 	nk.Link = ""
+						// } else if strings.Contains(v, "server=") {
+						// 	nk.Form = "SQL"
+						// 	nk.Link = ""
+						// } else if strings.Contains(v, "tcp://") {
+						// 	nk.Form = "WCF"
+						// 	nk.Link = ""
+						// } else if strings.Contains(v, "-ns") {
+						// 	nk.Form = "AMQP"
+						// 	nk.Link = ""
+						// } else if strings.Contains(v, "\\\\") {
+						// 	nk.Form = "SMB/CIFS/NFS"
+						// 	nk.Link = ""
+						// } else {
+						// 	nk.Form = "???"
+						// 	nk.Link = ""
+						// }
 						if !stringInSliceElement(v, Configuration.ExcludedIdentifiers) {
 							deps[k] = nk
 						}
