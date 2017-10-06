@@ -13,15 +13,6 @@ import (
 	"regexp"
 )
 
-// var categories = []string{
-// 	"databases",
-// 	"services-and-apis",
-// 	"everything",
-// 	"all-except-unknown",
-// }
-
-// var order = []string{}
-
 func main() {
 	args := flagInit()
 	initConfig(*args.config)
