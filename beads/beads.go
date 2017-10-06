@@ -68,16 +68,6 @@ func main() {
 	}
 }
 
-func tokenize(input []byte, buffers []string, tokenMap map[string]string) string {
-	inputS := string(input)
-	for k, v := range tokenMap {
-		if v != "false" && v != "true" {
-			inputS = strings.Replace(inputS, "\""+v+"\"", buffers[0]+k+buffers[1], 1)
-		}
-	}
-	return inputS
-}
-
 func checkError(err error) {
 	if err != nil {
 		log.Panic(err)
@@ -126,8 +116,4 @@ func ensureFileExists(file, use string) {
 		fmt.Printf("Error: File \"%s\" does not exist. Please provide a valid file path for %s.\n", file, use)
 		os.Exit(1)
 	}
-}
-
-func outputToStdout(data []byte) {
-	fmt.Print(string(data))
 }
