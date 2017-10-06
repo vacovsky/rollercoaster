@@ -13,20 +13,24 @@ import (
 	"regexp"
 )
 
-var categories = []string{
-	"databases",
-	"services-and-apis",
-	"everything",
-	"all-except-unknown",
-}
+// var categories = []string{
+// 	"databases",
+// 	"services-and-apis",
+// 	"everything",
+// 	"all-except-unknown",
+// }
 
 // var order = []string{}
 
 func main() {
 	args := flagInit()
 	initConfig(*args.config)
+
+	createContentFolders()
+
 	transforms := scrapeAppTransforms()
-	for _, category := range categories {
+	for _, cm := range Configuration.CategoryMeta {
+		category := cm.Name
 		for app, content := range transforms {
 			tokens := [][]byte{}
 

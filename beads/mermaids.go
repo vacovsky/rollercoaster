@@ -45,61 +45,21 @@ func buildChartList(friendly string, input map[string]mermaidNode, category stri
 	result = append(result, fmt.Sprintf("style %s fill:%s,stroke:%s,stroke-width:2px", friendly, color, color2))
 	// result = append(result, fmt.Sprintf("linkStyle %s stroke:%s,stroke-width:2px", friendly, color))
 	protoTag := true
-
 	for _, v := range input {
-		if category == "databases" &&
-			v.Form != "AMQP" &&
-			v.Form != "WCF" &&
-			v.Form != "HTTP" &&
-			v.Form != "???" &&
-			v.Form != "SMB/CIFS/NFS" {
-			protoTag = false
-			result = append(result, lineBuilder(friendly, v.Name, v.Form, v.Value, v.Form, protoTag))
-			tagFound := false
-			for _, t := range tags {
-				if t == v.Name {
-					tagFound = true
+		for _, cm := range Configuration.CategoryMeta {
+			if cm.Name == category {
+				if stringInSlice(v.Form, cm.Forms) {
+
+					protoTag = false
+					entry := lineBuilder(friendly, v.Name, v.Form, v.Value, v.Form, protoTag)
+					result = append(result, entry)
+					if !stringInSlice(v.Name, tags) {
+						tags = append(tags, v.Name)
+					}
+					if !stringInSlice(entry, allContent[category]) {
+						allContent[category] = append(allContent[category], entry)
+					}
 				}
-			}
-			if !tagFound {
-				tags = append(tags, v.Name)
-			}
-		} else if category == "services-and-apis" &&
-			v.Form != "???" &&
-			v.Form != "SQL" &&
-			v.Form != "SMB/CIFS/NFS" {
-			result = append(result, lineBuilder(friendly, v.Name, v.Form, v.Value, v.Form, protoTag))
-			tagFound := false
-			for _, t := range tags {
-				if t == v.Name {
-					tagFound = true
-				}
-			}
-			if !tagFound {
-				tags = append(tags, v.Name)
-			}
-		} else if category == "all-except-unknown" &&
-			v.Form != "???" {
-			result = append(result, lineBuilder(friendly, v.Name, v.Form, v.Value, v.Form, protoTag))
-			tagFound := false
-			for _, t := range tags {
-				if t == v.Name {
-					tagFound = true
-				}
-			}
-			if !tagFound {
-				tags = append(tags, v.Name)
-			}
-		} else if category == "everything" {
-			result = append(result, lineBuilder(friendly, v.Name, v.Form, v.Value, v.Form, protoTag))
-			tagFound := false
-			for _, t := range tags {
-				if t == v.Name {
-					tagFound = true
-				}
-			}
-			if !tagFound {
-				tags = append(tags, v.Name)
 			}
 		}
 	}

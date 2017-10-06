@@ -1,15 +1,14 @@
 ---
 draft: false
-date: "2017-10-05T15:23:02"
-tags: ["ServiceDB",
-"LoggingDB",
+date: "2017-10-06T11:07:21"
+tags: ["LoggingDB",
+"ServiceDB",
 ]
 title: ServiceAPI
 categories: ["databases"]
 depmap: [ "graph LR",
-"style ServiceAPI fill:#e41695,stroke:#723652,stroke-width:2px",
-"ServiceAPI>\"fa:fa-arrow-right ServiceAPI\"] -->ServiceDB(\"fa:fa-database ServiceDB\")",
+"style ServiceAPI fill:#c20e42,stroke:#1c1b70,stroke-width:2px",
 "ServiceAPI>\"fa:fa-arrow-right ServiceAPI\"] -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"ServiceAPI>\"fa:fa-arrow-right ServiceAPI\"] -->ServiceDB(\"fa:fa-database ServiceDB\")",
 ]
 ---
-			

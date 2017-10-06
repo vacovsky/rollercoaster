@@ -1,6 +1,9 @@
 package main
 
-import "time"
+import (
+	"os"
+	"time"
+)
 
 func writeContent(application string, input []string, tags []string, category string) {
 	tagsStr := "["
@@ -23,7 +26,13 @@ depmap: [ "graph LR",
 	}
 	template += `]
 ---
-			`
+`
 
 	outputToFile(Configuration.HugoSiteRootPath+"/content/"+category+"/"+application+".md", []byte(template))
+}
+
+func createContentFolders() {
+	for _, d := range Configuration.CategoryMeta {
+		_ = os.Mkdir(Configuration.HugoSiteRootPath+"/content/"+d.Name, os.ModePerm)
+	}
 }

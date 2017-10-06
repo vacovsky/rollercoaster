@@ -1,15 +1,16 @@
 ---
 draft: false
-date: "2017-10-05T15:23:02"
+date: "2017-10-06T11:07:21"
 tags: ["Crypto",
 "MessageBus-A",
+"File_Share",
 ]
 title: IdentityProvider
 categories: ["services-and-apis"]
 depmap: [ "graph LR",
-"style IdentityProvider fill:#33d840,stroke:#27792f,stroke-width:2px",
-"IdentityProvider -->|HTTP|Crypto((\"fa:fa-globe Crypto\"))",
-"IdentityProvider -->|AMQP|MessageBus-A[\"fa:fa-sitemap MessageBus-A\"]",
+"style IdentityProvider fill:#c63d24,stroke:#7a284a,stroke-width:2px",
+"IdentityProvider -->Crypto((\"fa:fa-globe Crypto\"))",
+"IdentityProvider -->MessageBus-A[\"fa:fa-sitemap MessageBus-A\"]",
+"IdentityProvider -->File_Share[\"fa:fa-files-o File_Share\"]",
 ]
 ---
-			

@@ -1,6 +1,6 @@
 ---
 draft: false
-date: "2017-10-05T15:23:02"
+date: "2017-10-06T11:07:21"
 tags: ["IdentityProvider",
 "MessageBus-B",
 "MessageBus-C",
@@ -10,12 +10,11 @@ tags: ["IdentityProvider",
 title: Service-A
 categories: ["everything"]
 depmap: [ "graph LR",
-"style Service-A fill:#2943b7,stroke:#4e2d62,stroke-width:2px",
-"Service-A -->|HTTP|IdentityProvider((\"fa:fa-globe IdentityProvider\"))",
-"Service-A -->|AMQP|MessageBus-B[\"fa:fa-sitemap MessageBus-B\"]",
-"Service-A -->|AMQP|MessageBus-C[\"fa:fa-sitemap MessageBus-C\"]",
-"Service-A -->|SQL|LoggingDB(\"fa:fa-database LoggingDB\")",
-"Service-A -->|SQL|ServiceA-DB(\"fa:fa-database ServiceA-DB\")",
+"style Service-A fill:#c9ae15,stroke:#3c7852,stroke-width:2px",
+"Service-A -->IdentityProvider((\"fa:fa-globe IdentityProvider\"))",
+"Service-A -->MessageBus-B[\"fa:fa-sitemap MessageBus-B\"]",
+"Service-A -->MessageBus-C[\"fa:fa-sitemap MessageBus-C\"]",
+"Service-A -->LoggingDB(\"fa:fa-database LoggingDB\")",
+"Service-A -->ServiceA-DB(\"fa:fa-database ServiceA-DB\")",
 ]
 ---
-			

@@ -1,11 +1,12 @@
 ---
 draft: false
-date: "2017-10-05T15:23:02"
-tags: []
+date: "2017-10-06T11:07:21"
+tags: ["File_Share",
+]
 title: Crypto
 categories: ["services-and-apis"]
 depmap: [ "graph LR",
-"style Crypto fill:#10b864,stroke:#4e1137,stroke-width:2px",
+"style Crypto fill:#c60805,stroke:#256a90,stroke-width:2px",
+"Crypto -->File_Share[\"fa:fa-files-o File_Share\"]",
 ]
 ---
-			

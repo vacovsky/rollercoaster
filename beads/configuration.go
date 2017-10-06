@@ -14,10 +14,14 @@ func initConfig(confPath string) {
 }
 
 type configuration struct {
-	AccessToken         string   `json:"AccessToken"`
-	HugoSiteRootPath    string   `json:"HugoSiteRootPath"`
-	DependencyStrings   []string `json:"DependencyStrings"`
-	FlowIngressPoints   []string `json:"FlowIngressPoints"`
+	AccessToken       string   `json:"AccessToken"`
+	HugoSiteRootPath  string   `json:"HugoSiteRootPath"`
+	DependencyStrings []string `json:"DependencyStrings"`
+	FlowIngressPoints []string `json:"FlowIngressPoints"`
+	CategoryMeta      []struct {
+		Name  string   `json:"Name"`
+		Forms []string `json:"Forms"`
+	}
 	ExcludedIdentifiers []string `json:"ExcludedIdentifiers"`
 	TargetCategories    []struct {
 		Category     string   `json:"Category"`

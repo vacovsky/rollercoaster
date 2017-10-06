@@ -4,6 +4,18 @@
     "DependencyStrings": ["http://", "https://", "tcp:", "mysite", "\\\\", "-ns", "server="],
     "ExcludedIdentifiers": ["-local"],
     "FlowIngressPoints": ["MyWebApp", "ServiceAPI"],
+    "CategoryMeta": [{
+            "Name": "services-and-apis",
+            "Forms": ["WCF", "HTTP", "SMB/CIFS/NFS", "AMQP"]
+        }, {
+            "Name": "databases",
+            "Forms": ["SQL"]
+        },
+        {
+            "Name": "everything",
+            "Forms": ["SQL", "WCF", "HTTP", "SMB/CIFS/NFS", "AMQP", "???"]
+        }
+    ],
     "TargetCategories": [{
             "Category": "SQL",
             "Identifiers": ["server=", "Server="],
