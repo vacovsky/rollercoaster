@@ -59,41 +59,7 @@ func main() {
 					}
 				}
 			}
-			deps := map[string]mermaidNode{}
-			for k, v := range tokenValueMap {
-				for _, ss := range Configuration.DependencyStrings {
-					v = strings.ToLower(v)
-					ss = strings.ToLower(ss)
-					if strings.Contains(v, ss) {
-
-						for _, mappedItem := range Configuration.Targets {
-							if sliceElementInString(mappedItem.Identifiers, v) {
-								k = mappedItem.FriendlyName
-							}
-						}
-						parseProtocols := func(fName, fInput string) mermaidNode {
-							r := mermaidNode{
-								Name: fName,
-							}
-							for _, ci := range Configuration.TargetCategories {
-								if sliceElementInString(ci.Identifiers, fInput) {
-									r.Form = ci.Category
-									r.Link = ""
-								}
-							}
-							if r.Form == "" {
-								r.Form = "???"
-								r.Link = ""
-							}
-							return r
-						}
-						nk := parseProtocols(k, v)
-						if !stringInSliceElement(v, Configuration.ExcludedIdentifiers) {
-							deps[k] = nk
-						}
-					}
-				}
-			}
+			deps := buildMermaidNodes(tokenValueMap)
 			buildChartList(app, deps, category)
 		}
 		for _, v := range allContent {
