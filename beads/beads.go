@@ -59,9 +59,7 @@ func main() {
 					}
 				}
 			}
-
 			deps := map[string]mermaidNode{}
-
 			for k, v := range tokenValueMap {
 				for _, ss := range Configuration.DependencyStrings {
 					v = strings.ToLower(v)
@@ -73,7 +71,6 @@ func main() {
 								k = mappedItem.FriendlyName
 							}
 						}
-
 						parseProtocols := func(fName, fInput string) mermaidNode {
 							r := mermaidNode{
 								Name: fName,
@@ -96,8 +93,8 @@ func main() {
 						}
 					}
 				}
-				buildChartList(app, deps, category)
 			}
+			buildChartList(app, deps, category)
 		}
 		for _, v := range allContent {
 			writeContent("All Applications", v, []string{}, category)
