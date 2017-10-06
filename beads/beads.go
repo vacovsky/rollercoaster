@@ -24,11 +24,11 @@ func main() {
 		category := cm.Name
 		for app, content := range transforms {
 			tokens := [][]byte{}
-
 			input := []byte(content)
-
-			tokens = append(tokens, extractTokenNames(input, "("+strings.Join(args.keyNames, "|")+")=\".*\"\\s*?("+strings.Join(args.valueNames, "|")+")=\".*\"")...)
-
+			tokens = append(tokens, extractTokenNames(input, "("+strings.Join(
+				args.keyNames, "|")+")=\".*\"\\s*?("+strings.Join(
+				args.valueNames,
+				"|")+")=\".*\"")...)
 			cleanTokens := [][]byte{}
 			for _, t := range tokens {
 				r1 := regexp.MustCompile("(" + strings.Join(args.keyNames, "|") + ")=\"")
@@ -41,20 +41,20 @@ func main() {
 			}
 			tokenValueMap := map[string]string{}
 			for _, t := range cleanTokens {
-				for _, argggg := range tokens {
+				for _, token := range tokens {
 					re := fmt.Sprintf("("+strings.Join(args.keyNames, "|")+")=\"%s\"\\s*("+strings.Join(args.valueNames, "|")+")=", t)
 					re3 := regexp.MustCompile(re)
-					if re3.Match(argggg) {
-						argggg = re3.ReplaceAll(argggg, []byte(""))
-						argggg = bytes.Replace(argggg, []byte("\""), []byte(""), -1)
+					if re3.Match(token) {
+						token = re3.ReplaceAll(token, []byte(""))
+						token = bytes.Replace(token, []byte("\""), []byte(""), -1)
 						tfound := false
 						for _, exclude := range args.excluded {
-							if strings.HasPrefix(string(argggg), exclude) {
+							if strings.HasPrefix(string(token), exclude) {
 								tfound = true
 							}
 						}
 						if !tfound {
-							tokenValueMap[string(t)] = string(argggg)
+							tokenValueMap[string(t)] = string(token)
 						}
 					}
 				}
@@ -96,9 +96,6 @@ func main() {
 						}
 					}
 				}
-				// if !stringInSlice(app, order) {
-				// 	order = append(order, app)
-				// }
 				buildChartList(app, deps, category)
 			}
 		}
@@ -106,9 +103,6 @@ func main() {
 			writeContent("All Applications", v, []string{}, category)
 		}
 	}
-	// for _, dwa := range order {
-	// 	fmt.Println(dwa)
-	// }
 }
 
 func tokenize(input []byte, buffers []string, tokenMap map[string]string) string {

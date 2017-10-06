@@ -1,6 +1,6 @@
 ---
 draft: false
-date: "2017-10-06T11:07:21"
+date: "2017-10-06T12:02:14"
 tags: ["IdentityProvider",
 "MessageBus-A",
 "Service-A",
@@ -10,7 +10,7 @@ tags: ["IdentityProvider",
 title: ServiceAPI
 categories: ["services-and-apis"]
 depmap: [ "graph LR",
-"style ServiceAPI fill:#2e4caf,stroke:#2e7c52,stroke-width:2px",
+"style ServiceAPI fill:#e41695,stroke:#723652,stroke-width:2px",
 "ServiceAPI>\"fa:fa-arrow-right ServiceAPI\"] -->IdentityProvider((\"fa:fa-globe IdentityProvider\"))",
 "ServiceAPI>\"fa:fa-arrow-right ServiceAPI\"] -->MessageBus-A[\"fa:fa-sitemap MessageBus-A\"]",
 "ServiceAPI>\"fa:fa-arrow-right ServiceAPI\"] -->Service-A{\"fa:fa-tasks Service-A\"}",
