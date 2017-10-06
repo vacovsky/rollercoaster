@@ -23,7 +23,7 @@ type configuration struct {
 		Category     string   `json:"Category"`
 		Identifiers  []string `json:"Identifiers"`
 		Icon         string   `json:"Icon"`
-		DisplayShape []string `json:DisplayShape`
+		DisplayShape []string `json:"DisplayShape"`
 	} `json:"TargetCategories"`
 	Targets []struct {
 		FriendlyName string   `json:"FriendlyName"`
