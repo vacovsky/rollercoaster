@@ -1,4 +1,4 @@
-# An auto-mapper for .Net environments
+# An automatic dependency mapper for .Net environments
 
 ## See Demo [here](https://vacoj.github.io/rollercoaster/services-and-apis/all-applications/)
 
