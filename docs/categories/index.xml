@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on rollercoaster</title>
-    <link>https://vacoj.github.io/rollercoaster/categories/</link>
+    <link>https://vacovsky.github.io/rollercoaster/categories/</link>
     <description>Recent content in Categories on rollercoaster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://vacoj.github.io/rollercoaster/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vacovsky.github.io/rollercoaster/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Databases</title>
-      <link>https://vacoj.github.io/rollercoaster/categories/databases/</link>
+      <link>https://vacovsky.github.io/rollercoaster/categories/databases/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/categories/databases/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/categories/databases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything</title>
-      <link>https://vacoj.github.io/rollercoaster/categories/everything/</link>
+      <link>https://vacovsky.github.io/rollercoaster/categories/everything/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/categories/everything/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/categories/everything/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Services and Apis</title>
-      <link>https://vacoj.github.io/rollercoaster/categories/services-and-apis/</link>
+      <link>https://vacovsky.github.io/rollercoaster/categories/services-and-apis/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/categories/services-and-apis/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/categories/services-and-apis/</guid>
       <description></description>
     </item>
     

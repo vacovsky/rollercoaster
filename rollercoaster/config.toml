@@ -1,4 +1,4 @@
-baseurl = "https://vacoj.github.io/rollercoaster/"
+baseurl = "https://vacovsky.github.io/rollercoaster/"
 theme = "docdock"
 builddrafts = true
 canonifyurls = true

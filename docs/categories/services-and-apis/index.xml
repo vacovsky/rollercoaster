@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services and Apis on rollercoaster</title>
-    <link>https://vacoj.github.io/rollercoaster/categories/services-and-apis/</link>
+    <link>https://vacovsky.github.io/rollercoaster/categories/services-and-apis/</link>
     <description>Recent content in Services and Apis on rollercoaster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 02 Oct 2017 15:15:50 +0000</lastBuildDate>
     
-	<atom:link href="https://vacoj.github.io/rollercoaster/categories/services-and-apis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vacovsky.github.io/rollercoaster/categories/services-and-apis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>All Applications</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/all-applications/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/all-applications/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/all-applications/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/all-applications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crypto</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/crypto/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/crypto/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/crypto/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/crypto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IdentityProvider</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/identityprovider/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/identityprovider/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/identityprovider/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/identityprovider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MyWebApp</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/mywebapp/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/mywebapp/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/mywebapp/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/mywebapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-A</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/service-a/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/service-a/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/service-a/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/service-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-B</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/service-b/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/service-b/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/service-b/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/service-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceAPI</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/serviceapi/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/serviceapi/</link>
       <pubDate>Mon, 02 Oct 2017 15:15:50 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/serviceapi/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/serviceapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceA</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/servicea/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/servicea/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/servicea/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/servicea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ServiceB</title>
-      <link>https://vacoj.github.io/rollercoaster/services-and-apis/serviceb/</link>
+      <link>https://vacovsky.github.io/rollercoaster/services-and-apis/serviceb/</link>
       <pubDate>Sun, 01 Oct 2017 22:40:26 +0000</pubDate>
       
-      <guid>https://vacoj.github.io/rollercoaster/services-and-apis/serviceb/</guid>
+      <guid>https://vacovsky.github.io/rollercoaster/services-and-apis/serviceb/</guid>
       <description></description>
     </item>
     
